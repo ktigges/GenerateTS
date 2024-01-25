@@ -140,7 +140,11 @@ def download_ts(firewall_ip, user_id, user_password, jobid):
 
 
 def main(firewall_ip):
-    user_id = "apiuser"
+    #
+    # User ID is hard coded for the moment.  Update this with your admin user ID
+    #
+    #
+    user_id = "admin"
     user_password = get_password()
     jobid = ""
 
